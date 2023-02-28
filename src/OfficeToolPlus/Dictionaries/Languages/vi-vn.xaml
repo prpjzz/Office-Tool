@@ -13,7 +13,7 @@
     <sys:String x:Key="Eula.Content">Bằng cách sử dụng phần mềm này, bạn chấp nhận với [Điều khoản cấp phép phần mềm]({0}) và [Thoả thuận dịch vụ của Microsoft]({1}).</sys:String>
 
     <!-- Custom control -->
-    <sys:String x:Key="Yerong_String_ToggleButton.Unset">Unset</sys:String>
+    <sys:String x:Key="Yerong_String_ToggleButton.Unset">Không thiết lập</sys:String>
     <sys:String x:Key="Yerong_String_ToggleButton.Off">Tắt</sys:String>
     <sys:String x:Key="Yerong_String_ToggleButton.On">On</sys:String>
     <sys:String x:Key="Yerong_String_MicaMenu.Name">Menu</sys:String>
@@ -69,7 +69,7 @@
     <!-- 18:00 -> 21:00 -->
     <sys:String x:Key="Home_Greeting_Hour.18">Chào buổi tối</sys:String>
     <!-- 21:00 -> 22:00 -->
-    <sys:String x:Key="Home_Greeting_Hour.21">Time to sleep, have a nice dream!</sys:String>
+    <sys:String x:Key="Home_Greeting_Hour.21">Đã đến giờ ngủ, chúc bạn có một giấc ngủ ngon!</sys:String>
     <!-- 22:00 -> 00:00 (+1) -->
     <sys:String x:Key="Home_Greeting_Hour.22">Khuya rồi đấy, chúc bạn ngủ ngon nhé!</sys:String>
     <!-- Greetings end -->
@@ -128,13 +128,13 @@
     <sys:String x:Key="Deploy_Architecture">Architecture</sys:String>
     <sys:String x:Key="Deploy_Architecture.x86">32 Bit</sys:String>
     <sys:String x:Key="Deploy_Architecture.x64">64 Bit</sys:String>
-    <sys:String x:Key="Deploy_Channel">Update channel</sys:String>
+    <sys:String x:Key="Deploy_Channel">Kênh cập nhật</sys:String>
     <sys:String x:Key="Deploy_Module">Installation module</sys:String>
     <sys:String x:Key="Deploy_Module.ODT">Công cụ triển khai Office</sys:String>
     <sys:String x:Key="Deploy_Module.OTP">Office Tool Plus</sys:String>
-    <sys:String x:Key="Deploy_Download_First">Download first, then deploy</sys:String>
+    <sys:String x:Key="Deploy_Download_First">Tải trước rồi mới triển khai</sys:String>
     <sys:String x:Key="Deploy_Download_First.Description">The installation files will be saved in the program directory or the directory specified by source path.</sys:String>
-    <sys:String x:Key="Deploy_Create_Shortcut">Create desktop shortcuts</sys:String>
+    <sys:String x:Key="Deploy_Create_Shortcut">Tạo lối tắt ở màn hình Desktop</sys:String>
     <sys:String x:Key="Deploy_Create_Shortcut.Description">Create desktop shortcuts to Office applications after Office installation.</sys:String>
     <!-- Do not edit it or translate it. iSlide only provided in mainland China. -->
     <sys:String x:Key="Deploy_iSlide">PlaceHolder</sys:String>
@@ -196,29 +196,29 @@
     
     <!-- Deploy advanced page -->
     <sys:String x:Key="Deploy_Advanced">Cài đặt nâng cao</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Go_Back">Go back</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Go_Back.Description">Back to basic settings.</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Go_Back">Quay về</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Go_Back.Description">Quay về các thiết lập chung.</sys:String>
 
-    <sys:String x:Key="Deploy_Advanced_General_Settings">General settings</sys:String>
+    <sys:String x:Key="Deploy_Advanced_General_Settings">Thiết lập chung</sys:String>
     <sys:String x:Key="Deploy_Advanced_Company_Name">Cung cấp tên tổ chức của bạn để đặt tài sản công ty trên các tài liệu Office.</sys:String>
     <sys:String x:Key="Deploy_Advanced_Description">Cung cấp mô tả cấu hình cho tài liệu.</sys:String>
     
     <sys:String x:Key="Deploy_Advanced_Install_Settings">Install settings</sys:String>
     <sys:String x:Key="Deploy_Advanced_Fallback_Language">Fallback language</sys:String>
     <sys:String x:Key="Deploy_Advanced_Fallback_Language.Description">Khi ngôn ngữ được đặt để khớp với ngôn ngữ hệ thống, bạn có thể chỉ định một ngôn ngữ dự phòng để cài đặt khi ngôn ngữ phù hợp không được Office hỗ trợ hoặc không thể tìm thấy trong nguồn cục bộ.</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Version">Office version</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Version">Phiên bản Office</sys:String>
     <sys:String x:Key="Deploy_Advanced_Version.Description">Mặc định cài phiên bản mới nhất nếu không được chỉ định.</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Download_Path">Download path</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Download_Path">Đường dẫn tải về</sys:String>
     <sys:String x:Key="Deploy_Advanced_Download_Path.Description">Defines where the installation files are downloaded from, you must specify Office version when using download path.</sys:String>
     <sys:String x:Key="Deploy_Advanced_Source_Path">Source path</sys:String>
     <sys:String x:Key="Deploy_Advanced_Source_Path.Description">Nếu đường dẫn nguồn để trống, Office CDN sẽ được sử dụng làm nguồn mặc định. Trong chế độ tải về, mục này được dùng để xác định nơi lưu tập tin.</sys:String>
-    <sys:String x:Key="Deploy_Advanced_No_Display">Silent install</sys:String>
-    <sys:String x:Key="Deploy_Advanced_No_Display.Description">No progress bars, error messages, or other user interface are displayed during Office installation.</sys:String>
+    <sys:String x:Key="Deploy_Advanced_No_Display">Chế độ cài đặt yên lặng</sys:String>
+    <sys:String x:Key="Deploy_Advanced_No_Display.Description">Không có thanh tiến trình, tin nhắn báo lỗi hoặc những giao diện khác được hiển thị trong lúc Office được cài đặt.</sys:String>
     <sys:String x:Key="Deploy_Advanced_Allow_CDN_Fallback">Allow fallback to CDN</sys:String>
     <sys:String x:Key="Deploy_Advanced_Allow_CDN_Fallback.Description">Allow Office installer to fallback to Office CDN to download the missing languages.</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Force_Close_Apps">Force close all running Office applications</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Pin_To_Taskbar">Pin to taskbar</sys:String>
-    <sys:String x:Key="Deploy_Advanced_Pin_To_Taskbar.Description">Pin Office applications icons to taskbar on Windows 7, 8 and 8.1.</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Force_Close_Apps">Buộc dừng tất cả các ứng dụng Office đang chạy</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Pin_To_Taskbar">Ghim vào thanh Taskbar</sys:String>
+    <sys:String x:Key="Deploy_Advanced_Pin_To_Taskbar.Description">Ghim các icon ứng dụng Office lên thanh taskbar trên Windows 7, 8 và 8.1.</sys:String>
 
     <sys:String x:Key="Deploy_Advanced_Update_Settings">Thiết lập cập nhật</sys:String>
     <sys:String x:Key="Deploy_Advanced_Enable_Mgnt_COM">Manage updates using MECM.</sys:String>
@@ -258,8 +258,8 @@
     <sys:String x:Key="Deploy_Advanced_Set_Preferences_Button">Áp dụng</sys:String>
 
     <!-- Activate page -->
-    <sys:String x:Key="Activate_Activation">Activation</sys:String>
-    <sys:String x:Key="Activate_Activation.Description">Activate or view your Office licenses.</sys:String>
+    <sys:String x:Key="Activate_Activation">Kích hoạt</sys:String>
+    <sys:String x:Key="Activate_Activation.Description">Kích hoạt hoặc xem giấy phép Office của bạn.</sys:String>
     <sys:String x:Key="Activate_Button">Kích hoạt (_A)</sys:String>
     <sys:String x:Key="Activate_Display_Activation">Hiện thông tin kích hoạt</sys:String>
     <sys:String x:Key="Activate_Display_Licenses">Hiện thông tin giấy phép</sys:String>
